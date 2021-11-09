@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wp_ads0980aj12h3' );
 define( 'DB_USER', 'root' );
 
 /** Συνθηματικό βάσης δεδομένων MySQL */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'test' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
