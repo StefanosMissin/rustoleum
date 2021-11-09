@@ -1,7 +1,16 @@
 /* GENERAL */
 
+@font-face {
+    font-family: NotoSerifDisplay;
+    src: url(/wp-content/themes/rustoleum/rustoleum/fonts/NotoSerifDisplay-Regular.ttf);
+}
+
 .font_roboto {
     font-family: 'Roboto', sans-serif !important;
+}
+
+.font_noto_serif {
+    font-family: NotoSerifDisplay !important;
 }
 
 p,
@@ -71,3 +80,9 @@ section#home_general_texts {
 
 
 /* Home General*/
+
+
+/* Home DECORATIVE*/
+
+
+/* Home DECORATIVE*/

@@ -37,15 +37,16 @@ $button_link = get_field('home_general_button_link');
 
     <section id="home_general_texts">
         <div class="container">
-            <div class="col-md-12">
-                <h1><?php echo $title; ?></h1>
-                <div class="text">
-                    <?php echo $text; ?>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1><?php echo $title; ?></h1>
+                    <div class="text">
+                        <?php echo $text; ?>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn" href="<?php echo $button_link; ?>"><?php echo $button_text; ?></a>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <a class="btn" href="<?php echo $button_link; ?>"><?php echo $button_text; ?></a>
-                </div>
-                
             </div>
         </div>
     </section>
