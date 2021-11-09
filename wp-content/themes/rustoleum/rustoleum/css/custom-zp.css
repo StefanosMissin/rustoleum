@@ -23,10 +23,60 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    line-height: 24px;
+    text-decoration: none !important;
+}
+
+a {
+    color: rgba(43, 43, 43, 0.5);
 }
 
 a:hover {
     color: unset;
+}
+
+a:visited {
+    color: rgba(43, 43, 43, 0.5);
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px solid rgb(43, 43, 43);
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    color: #2b2b2b;
+}
+
+.link {
+    font-size: 16px;
+    color: rgba(43, 43, 43, 0.5) !important;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgba(43, 43, 43, 1) !important;
+    text-decoration: none;
+}
+
+.page {
+    margin: 0 !important;
 }
 
 
@@ -63,19 +113,7 @@ section#home_general_texts {
     line-height: 24px;
     font-weight: 400;
     color: #2b2b2b;
-}
-
-#home_general_texts .btn {
-    padding: 10px;
-    border: 1px solid rgb(43, 43, 43);
-    font-size: 16px;
-    font-weight: 700;
-    display: inline-block;
-    margin-top: 30px;
-}
-
-.btn:hover {
-    color: #2b2b2b;
+    margin-bottom: 30px;
 }
 
 
@@ -83,6 +121,73 @@ section#home_general_texts {
 
 
 /* Home DECORATIVE*/
+
+#home_decorative_product_information,
+#home_decorative_empneusi {
+    padding: 50px 0;
+    background: #F5F5F5;
+}
+
+#home_decorative_product_information h2,
+#home_decorative_empneusi h2 {
+    color: #2b2b2b;
+    margin-bottom: 30px;
+}
+
+#home_decorative_product_information .text,
+#home_decorative_empneusi .text {
+    margin-bottom: 30px;
+}
+
+#home_decorative_product_information .image,
+#home_decorative_empneusi .image {
+    display: flex;
+    align-items: center;
+}
+
+#home_decorative_categories .texts a {
+    margin: 10px 0;
+    display: block;
+}
+
+#home_decorative_categories .texts h3 {
+    color: rgba(43, 43, 43, 0.75);
+}
+
+#decorative_blog {
+    padding: 40px 0 20px;
+}
+
+#decorative_blog h2 {
+    margin-bottom: 35px;
+}
+
+#decorative_blog p {
+    margin-bottom: 50px;
+}
+
+.diktuo_sinergatwn {
+    background: #F5F5F5;
+}
+
+#other_info {
+    background: linear-gradient(90deg, #F5F5F5 50%, #FFFFFF 50%);
+}
+
+.diktuo_sinergatwn h2,
+.faq h2 {
+    margin-bottom: 30px;
+}
+
+.diktuo_sinergatwn p,
+.faq p {
+    width: 70%;
+    max-width: 70%;
+}
+
+.git_enabled {
+    text-align: center;
+}
 
 
 /* Home DECORATIVE*/
