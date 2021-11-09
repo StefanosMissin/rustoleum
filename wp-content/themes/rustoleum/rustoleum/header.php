@@ -28,7 +28,7 @@
 	<!-- Animate.style-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
 	<!-- CUSTOM CSS -->
-	<link rel="stylesheet" href="/wp-content/themes/tikkurila/custom.css">
+	<link rel="stylesheet" href="/wp-content/themes/rustoleum/css/custom.css">
 	<?php wp_head(); ?>
 </head>
 
