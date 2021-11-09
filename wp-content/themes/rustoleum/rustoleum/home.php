@@ -19,7 +19,7 @@ $button_link = get_field('home_general_button_link');
 
 
 
-<main id="primary" class="site-main font-roboto">
+<main id="primary" class="site-main font_roboto">
     <section id="home_general_hero">
         <div class="container-fluid">
             <div class="row">
